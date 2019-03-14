@@ -14,7 +14,7 @@ def PurdueCheck(team1, team2):
 
 def BigTenBias(team):
     if team["name"] in bigTenList:
-        team["rank"] += bigTenFactor
+        team["rank"] -= bigTenFactor
     return None
 
 def MathWay(team1,team2):
